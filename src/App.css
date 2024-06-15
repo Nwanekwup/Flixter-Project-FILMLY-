@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+/* .App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white; 
+  padding: 2px;
+}  */
+
+.header{
+  width: 100%;
+  border: 2px solid rgba(164, 15, 223, 0.315);
+  height: auto;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(164, 15, 223, 0.315);
+  position: static;
+  
+}
+
+.header-text{
+  justify-content: center;
+  font-weight: solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+}
+
+.main-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-header{
+  display:flex ;
+  flex-direction: row;
+}
+
+.now-playing{
+  color: whitesmoke;
+  background-color: black;
+  border: 0;
+
+}
+
+.search-box{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  background-color: #141414;
+}
+
+.search-button{
+  color: whitesmoke;
+  background-color: black;
+  border:0;
+}
+
+@media (max-width: 600px) {
+  .movie-card {
+    width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar form {
+    flex-direction: column;
+  }
+}
+
+.footer{
+  bottom: 0;
+  border:solid red;
+  position: absolute;
+  text-align: right;
+  border: 2px solid white;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+}
+
+.footer-text{
+  margin-right: 1.5%;
+  color: white;
+  
+}
+
+
+
+
+
+
+

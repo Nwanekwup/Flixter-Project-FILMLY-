@@ -1,0 +1,15 @@
+.movie-list{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #141414;
+    margin-top: 10px;
+}
+
+.load-more{
+    background-color: rgb(184, 26, 26);
+    margin-bottom: 170px;
+    color: white
+}
